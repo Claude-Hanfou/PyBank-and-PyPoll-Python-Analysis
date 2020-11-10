@@ -54,8 +54,9 @@ print(f"Greatest Decrease in Profits: {total_months[max_decrease_month]} (${(str
 output_path = os.path.join('analysis',"output.txt")
 
 #Printing/writing results as text file 
-with open(output_path) as file:
+with open(output_path, "w") as file:
     
+    #Printing the Analysis as a text file and add \n for new line
     file.write("Financial Analysis")
     file.write("\n")
     file.write("----------------------------")
@@ -64,7 +65,7 @@ with open(output_path) as file:
     file.write("\n")
     file.write(f"Total: ${sum(total_profit)}")
     file.write("\n")
-    file.write(f"Average Change: {round(sum(monthly_profit_change)/len(monthly_profit_change),2)}")
+    file.write(f"Average Change: {round(sum(monthly_change)/len(monthly_change),2)}")
     file.write("\n")
     file.write(f"Greatest Increase in Profits: {total_months[max_increase_month]} (${(str(max_increase_value))})")
     file.write("\n")
