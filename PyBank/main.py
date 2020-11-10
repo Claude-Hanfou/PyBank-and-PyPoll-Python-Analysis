@@ -1,7 +1,7 @@
-# Modules
+# Import Modules
 import os
 import csv
-# Set path for file
+# Set path for file to use 
 csvpath = os.path.join('Resources', 'budget_data.csv')
 
 #Create list to iterate through each row and store data 
@@ -10,23 +10,23 @@ total_months = []
 total_profit = []
 monthly_change = []
 
-# Open the CSV
+# Open the CSV path where the file is located
 with open(csvpath) as csvfile :
     csvreader = csv.reader(csvfile, delimiter=",")
 
-     #Reading the header row
+     #Reading the header row to skip to the next line
     csv_header = next(csvreader)
     
     #Loop through every row
     for row in csvreader:
 
-    #Appens the number of months to it's list cal length when printing 
+    #Append the total months in row 0 so that it stores it's value
      total_months.append(row[0])
 
-     #Append the total to it's list, cal sum when printing
+     #Append the total profit of row 1 so that it stores it's value
      total_profit.append(int(row[1]))
 
-        # Go through the row to have the monthly change
+        # Loop through each row 
     for i in range(len(total_profit)-1):
         
         # To Calculate monthly change
