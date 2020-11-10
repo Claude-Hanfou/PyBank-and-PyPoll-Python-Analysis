@@ -11,7 +11,7 @@ total_profit = []
 monthly_change = []
 
 # Open the CSV
-with open(csvpath) as csvfile:
+with open(csvpath) as csvfile :
     csvreader = csv.reader(csvfile, delimiter=",")
 
      #Reading the header row
@@ -50,11 +50,12 @@ print(f"Average Change: {round(sum(monthly_change)/len(monthly_change),2)}")
 print(f"Greatest Increase in Profits: {total_months[max_increase_month]} (${(str(max_increase_value))})")
 print(f"Greatest Decrease in Profits: {total_months[max_decrease_month]} (${(str(max_decrease_value))})")
 
-#output files as test files
-csvpath = os.path.join('Analysis', 'budget_data.csv')
+#output files as text files in below path
+output_path = os.path.join('analysis',"output.txt")
 
-#Printing results as text file 
-
+#Printing/writing results as text file 
+with open(output_path) as file:
+    
     file.write("Financial Analysis")
     file.write("\n")
     file.write("----------------------------")
