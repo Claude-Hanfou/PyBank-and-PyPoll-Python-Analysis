@@ -83,3 +83,31 @@ print("---------------------")
 print("Winner: " +  winner_name)
 print("---------------------")
 print("----")
+
+#Printing analysis to the text file
+
+output_path = os.path.join('analysis',"output.txt")
+
+with open(output_path, 'w') as file:
+
+    file.write("Election Results")
+    file.write("\n")
+    file.write("---------------------")
+    file.write("\n")
+    file.write("Total Votes: " + str(total_votes_cast))
+    file.write("\n")
+    file.write("---------------------")
+    file.write("\n")
+    file.write("Khan: " + "{:.3%}".format(khan_Percent) + " " + (str(Khan_votes)))
+    file.write("\n")
+    file.write("Correy: " + "{:.3%}".format(correy_percent) + " " + (str(correy_votes)))
+    file.write("\n")
+    file.write("Li: " + "{:.3%}".format(li_percent) + " " + (str(li_votes)))
+    file.write("\n")
+    file.write("O'Tooley: " + "{:.3%}".format(otooley_percent) + " " + (str(otooley_votes)))
+    file.write("\n")
+    file.write("---------------------")
+    file.write("\n")
+    file.write("Winner: " +  winner_name)
+    file.write("\n")
+    file.write("---------------------")
