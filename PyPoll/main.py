@@ -104,7 +104,7 @@ with open(output_path, 'w') as file:
     file.write("\n")
     file.write("Li: " + "{:.3%}".format(li_percent) + " " + (str(li_votes)))
     file.write("\n")
-    file.write("O'Tooley: " + "{:.3%}".format(otooley_percent) + " " + (str(otooley_votes)))
+    file.write("O'Tooley: " + "{:.3%}".format(otooley_percent) + " " +  (str(otooley_votes)))
     file.write("\n")
     file.write("---------------------")
     file.write("\n")
