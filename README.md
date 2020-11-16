@@ -17,7 +17,7 @@ This is a detailed analysis of the financial records of a company with finacial 
 * The greatest decrease in losses (date and amount) over the entire period
 
 
-![alt text](https://github.com/Claude-Hanfou/PyBank-and-PyPoll-Python-Analysis/blob/main/image/Financial.PNG"Financial analysis 1")
+![alt text](https://github.com/Claude-Hanfou/PyBank-and-PyPoll-Python-Analysis/blob/main/image/Financial.PNG "Financial analysis 1")
 
 
 ## PyPoll 
