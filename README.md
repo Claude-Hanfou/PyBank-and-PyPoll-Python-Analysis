@@ -22,7 +22,7 @@ This is a detailed analysis of the financial records of a company with finacial 
 
 ## PyPoll 
 
-The optic of this analysis is to help a rural town modernize its vote counting process.
+The optic of this analysis is to help a rural town modernize its vote counting process with finacial data set election_data.csv.
 
 * The Python script analyzes the votes and calculates each of the following:
 
