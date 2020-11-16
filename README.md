@@ -17,6 +17,10 @@ The greatest increase in profits (date and amount) over the entire period
 The greatest decrease in losses (date and amount) over the entire period
 
 
+Inline-style: 
+![alt text](https://github.com/Claude-Hanfou/PyBank-and-PyPoll-Python-Analysis/blob/main/image/Financial.PNG "Financial analysis 1")
+
+
 Financial Analysis
 ----------------------------
 Total Months: 86
