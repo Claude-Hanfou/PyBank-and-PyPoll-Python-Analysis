@@ -2,7 +2,7 @@
 
 # PyBank 
 
-This is a detailed analysis of the financial records of a company. Python script for analyzing the financial records of a company. Provided with finacial data set budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses.
+This is a detailed analysis of the financial records of a company with finacial data set budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses.
 
 The Python script analyzes the financial records calculates each of the following:
 
@@ -22,9 +22,8 @@ The greatest decrease in losses (date and amount) over the entire period
 
 # PyPoll 
 
-The optic of this analysis is to help a rural town modernize its vote counting process.The Python script analyzes the following:
+The optic of this analysis is to help a rural town modernize its vote counting process.
 
-Python Script for analysis small, rural town vote-counting process.Provided a set of poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate.
 
 The Python script analyzes the votes and calculates each of the following:
 
