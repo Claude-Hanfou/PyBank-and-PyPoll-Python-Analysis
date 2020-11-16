@@ -1,6 +1,6 @@
 # PyBank-and-PyPoll-Python-Analysis
 
-Alt-H1 PyBank 
+# PyBank 
 
 This is a detailed analysis of the financial records of a company. Python script for analyzing the financial records of a company. Provided with finacial data set budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses.
 
@@ -20,7 +20,7 @@ The greatest decrease in losses (date and amount) over the entire period
 ![alt text](https://github.com/Claude-Hanfou/PyBank-and-PyPoll-Python-Analysis/blob/main/image/Financial.PNG "Financial analysis 1")
 
 
-#PyPoll 
+# PyPoll 
 
 The optic of this analysis is to help a rural town modernize its vote counting process.The Python script analyzes the following:
 
